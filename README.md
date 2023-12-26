@@ -8,7 +8,7 @@ An IP Address is a unique address that identifies a device on the internet or a 
 
 An IP address is a string of numbers seperated by periods. IP addresses are expressed as a set of four numbers -- an example address might be 88.99.987.9. Each number in the set ca range from 0 to 255. So, the full IP addressing range goes from 0.0.0.0 to 255.255.255.255. IP addresses are not random. They are mathematically produced and allocated by the Internet Assigned Numbers Authority (IANA), a devision of the Internet Corporation for Assigned Names and Numbers (ICANN). ICANN is a non-profit organisation that was established in the United States in 1998 to help maintain the security of the internet and allow it to be usable by all. Each time anyone registers a domain on the internet, they go through a domain name registrar, who pays a small fee to ICANN to register the domain.
 
-![Alt text](image.png)
+![Alt text](Images/image.png)
 
 ## Subnetting and Subnet Masks
 
@@ -25,7 +25,7 @@ A Subnet Mask is a 32 bits address used to distinguish between a network address
 CIDR Notation and Address Aggregation
 Classless Inter-Domain Routing (CIDR) is an IP address allocation method that improves data routing efficiency on the internet. Every machine, server, and end-user device that connects to the internet has a unique number, called an IP address, associated with it. Devices find and communicate with each other by using these IP addresses. Organisations use CIDR to allocate IP addreses flexibly and efficiently in their networks. It represent blocks of IP addresses, to get the number of addresses a CIDR block represent, you calculate 2^(32-prefix), where prefix is the number after the slash. For instance /16 contains 2^(32-16) = 2^16 = 65,536
 
-![Alt text](image-1.png)
+![Alt text](Images/image-1.png)
 
 ## IP Address Aggregator
 This is a utility developed to automated minimization process and convert bunch of IPv4 addresses into smallest continous range(s) possible. IP aggregation is commonly performed by network engineers working with BGP & routers. This utility will help webmasters to configure server firewalls, apache .htaccess files, address masks and so on.
